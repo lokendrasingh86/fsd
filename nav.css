@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(sparkle.jpeg);
+ 
+}
+.logo{
+    width: 100%;
+    height: fit-content;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    float:right;
+    margin-right: 15px;
+    padding:10px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.a1{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+}
+
+#n1{
+    color:white;
+    text-decoration: none;
+}
+#a2{
+    display: flex;
+
+    justify-content: center;
+    padding-top: 10rem;
+
+}
+
+#a2 > h1 {
+    font-size: 3rem;
+}
+#a3{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    color: red;
+    
+    
+}
+
+#a3 > button {
+    
+    font-size: 1.4rem;
+    background-color: rgb(107, 75, 137);
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+#a3 > button:is(:not(:last-child)) {
+    margin-right: 10rem;
+}
+
+#a3 > button:hover {
+    background: red;
+}
+.a1:hover{
+    background:black;
+}
